@@ -72,7 +72,8 @@ table tr td:first-child {
 }
 
 #kmeret, #kido, #knev {
-    color: darkslategrey
+    color: darkslategrey;
+    font-size: 150%;
 }
 
 footer.jumbotron {
