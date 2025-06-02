@@ -11,4 +11,5 @@ function frissit(meret){
     kido.innerHTML=rubikRekordok[meret].split(';')[1] + ' mp';
     knev.innerHTML=rubikRekordok[meret].split(';')[0];
     let kepfajl='rubik-'+meret+'.png';
+    document.getElementById('rubik').src = kepfajl;
 }
